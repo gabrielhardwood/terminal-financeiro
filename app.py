@@ -44,7 +44,7 @@ if st.button("ANALISAR ATIVO"):
 
             # 4. Chamada da Inteligência Artificial
             genai.configure(api_key=api_key)
-            model = genai.GenerativeModel('gemini-3.1-pro-preview')
+            model = genai.GenerativeModel('gemini-3-flash-preview')
             
             prompt = f"""
             Aja como um analista sênior. Analise o ativo {ticker}.
